@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://192.168.237.103:27017,192.168.237.103:27018/articledb      #路由节点
+    #      host: 192.168.237.100
+#      database: articledb
+#      port: 27017
+      #副本集
+     uri: mongodb://robotaxi:123456@139.217.56.46:27021,139.217.56.46:27022/robotaxi
